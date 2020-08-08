@@ -1,20 +1,13 @@
 {
   "name": "Proffy-study-platform",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/atuhrr/Proffy-study-platform.git"
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/atuhrr/Proffy-study-platform/issues"
-  },
-  "homepage": "https://github.com/atuhrr/Proffy-study-platform#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
